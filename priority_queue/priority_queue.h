@@ -1,5 +1,5 @@
-﻿
-#pragma once
+﻿#ifndef DATA_STRUCTURE_AND_ALGORITHM_PRIORITY_QUEUE_PRIORITY_QUEUE_H
+#define DATA_STRUCTURE_AND_ALGORITHM_PRIORITY_QUEUE_PRIORITY_QUEUE_H
 
 #include <iostream>
 #include <vector>
@@ -22,3 +22,5 @@ private:
   std::vector<int> data_;
   int size_{0};
 };
+
+#endif // DATA_STRUCTURE_AND_ALGORITHM_PRIORITY_QUEUE_PRIORITY_QUEUE_H
